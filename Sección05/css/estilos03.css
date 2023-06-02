@@ -1,66 +1,19 @@
-table{
-    width: 100%;
+h1{
+    color: #560bad;
 }
 
-table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    /* border-spacing: 5px; */
-    padding: 5px;
-}
-
-caption{
-    color: #e63946;
-    font-family: 'Trocchi', serif;
-    font-size: 45px;
-    line-height: 70px;
-}
-
-th{
-    color: #f1faee;
-    background-color: #1d3557;
-    
-}
-
-
-th:hover{
-    color: aqua;
-    background-color:brown;
-}
-tr:nth-child(odd){
-    background-color: #a8dadc;
-}
-tr:nth-child(even){
-    background-color: #f1faee;
-}
-/*
-th:active{
-    color: #e63946;
-    background-color: aquamarine;
-}
-
-tr:hover{
-    background-color: #e63946;
-}
-*/
-/* Renglones pares */
-/*
-tr:nth-child(even){
-    background-color: #f1faee;
-}
-*/
-/* Renglones impares */
-/*
-tr:nth-child(odd){
-    background-color: #a8dadc;
-}
-*/
-/*
-td{
+a:link, a:visited{
+    background-color: #b5179e;
+    color: white;
+    padding: 15px 25px;
     text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    /* para los elementos no se encimen */
+    display: inline-block;
 }
 
-th{
-    text-align: left;
+a:hover, a:active{
+    background-color: #f72585;
+    border-radius: 10px;
 }
-*/

@@ -1,20 +1,17 @@
-table{
-    width: 100%;
+h1{
+    color: #560bad;
 }
 
-table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    /* border-spacing: 5px; */
-    padding: 5px;
-}
-
-/*
-td{
+a:link, a:visited{
+    background-color: #b5179e;
+    color: white;
+    padding: 15px 25px;
     text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
 }
 
-th{
-    text-align: left;
+a:hover, a:active{
+    background-color: #f72585;
+    border-radius: 30px;
 }
-*/
