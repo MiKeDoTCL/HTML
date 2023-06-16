@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form>
+        <fieldset>
+            <legend>Datos Persona</legend>
+            <label for="nombre">Nombre:</label></br>
+            <input type="text" id="nombre" name="nombre"
+            placeholder="Escribe tu nombre" required="true"></br>
+            <label for="apellido">Apellido:</label></br>
+            <input type="text" id="apellido" name="apellido"
+            placeholder="Escribe tu apellido" required="true"></br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="edad">Edad:</label><br>
+            <input type="number" name="edad" id="edad" min="1" max="50"><br>
+
+            <label>Genero:</label><br>
+            <input type="radio" name="genero" id="femenino" value="femenino">
+            <label for="femenino">Fememino</label><br>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label><br>
+
+            <label >Género de música favorita</label><br>
+            <input type="checkbox" name="musica" id="clasica" value="clasica">
+            <label for="clasica">Clásica</label><br>
+            <input type="checkbox" name="musica" id="jazz" value="jazz">
+            <label for="jazz">Jazz</label><br>
+
+            <label for="autos">Marca de auto favorita</label><br>
+            <select name="autos" id="autos" multiple="true">
+                <option value="volvo">Volvo</option>
+                <option value="Peugeot" selected="true">Peugeot</option>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+            </select><br><br>
+
+            <label for="comentario">Comentario:</label><br>
+            <textarea name="comentario" id="comentario" cols="30" rows="2">Este es mi comentario</textarea><br>
+            
+            <input type="submit" value="Enviar">
+            <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+
+        </fieldset>
+    </form>
+</body>
+</html>
